@@ -1,0 +1,16 @@
+[project]
+name = "doctor-appointment-n8n-livekit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain[google-genai,openai]>=1.0.2",
+    "langchain-core>=1.0.1",
+    "langgraph>=1.0.1",
+    "livekit-agents[cartesia,deepgram,elevenlabs,langchain,openai,silero,turn-detector]~=1.0",
+    "langfuse>=3.8.1",
+    "langchain-openai>=1.0.1",
+    "streamlit==1.49.1",
+    "langchain-google-community>=3.0.0",
+]
